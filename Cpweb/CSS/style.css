@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;800&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(../images/volk.gif);
+	background-size: cover;
+	font-style: 'Century Gothic', sans-serif;
+}
+
+
+.box{
+	width: 500px;
+	background: rgb(123, 106, 244, .4);
+	margin: 0 auto;
+	margin-top: 4%;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.box-img{
+	border-radius: 50%;
+}
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+	margin: 30px 0 20px;
+	color: #4201FE;
+	font-family: 'Teko', sans-serif;
+}
+
+.box h2{
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+	margin-bottom: 20px;
+	color: #1801FE;
+	font-family: 'Questrial', sans-serif;
+}
+.box p{
+	text-align: justify;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+
+}
+#header{
+	margin: auto;
+	width: 500px;
+	font-family: 'Dosis', sans-serif;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav > li{
+	float: left;
+}
+
+.nav li a{
+	background-color: rgb(243, 147, 173, 0.5);
+	color: black;
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+}
+
+.nav li a:hover{
+	background-color: #A56AF4;
+}
+
+.nav li ul{
+display: none;
+position: absolute;
+min-width: 140px;
+}
+
+.nav li:hover >ul{
+	display: block;
+}
+
+.nav li ul li{
+	position: relative;
+}
+
+.nav li ul li ul{
+	right: -140px;
+	top: 0px;
+}
+
+
+
+
